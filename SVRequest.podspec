@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SVRequest'
-  s.version          = '1.1.0'
+  s.version          = '1.1.2'
   s.summary          = 'SVRequest framework CocoaPods'
 
   s.description      = <<-DESC
