@@ -4,7 +4,7 @@
 //
 //  Created by x5 on 2018/7/7.
 //  Copyright © 2018年 x5. All rights reserved.
-//  V1.1.2 HKSV
+//  V1.2.0 HKSV update 1/21/2020
 
 #import <Foundation/Foundation.h>
 
