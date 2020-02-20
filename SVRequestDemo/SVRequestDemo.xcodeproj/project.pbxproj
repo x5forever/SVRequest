@@ -8,16 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4777AABB7907F080CC16D8E0 /* libPods-SVRequestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67627356F3D307CDE85D0972 /* libPods-SVRequestDemo.a */; };
+		5406AD9323FE52640062397E /* SVTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5406AD9223FE52640062397E /* SVTransport.framework */; };
 		54354E98233734D400DB36FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54354E97233734D400DB36FC /* AppDelegate.m */; };
 		54354E9B233734D400DB36FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54354E9A233734D400DB36FC /* ViewController.m */; };
 		54354E9E233734D400DB36FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54354E9C233734D400DB36FC /* Main.storyboard */; };
 		54354EA0233734D500DB36FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54354E9F233734D500DB36FC /* Assets.xcassets */; };
 		54354EA3233734D500DB36FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54354EA1233734D500DB36FC /* LaunchScreen.storyboard */; };
 		54354EA6233734D500DB36FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54354EA5233734D500DB36FC /* main.m */; };
-		54354EC423374B3A00DB36FC /* SVRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54354EC323374B3A00DB36FC /* SVRequest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5406AD9223FE52640062397E /* SVTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVTransport.framework; sourceTree = "<group>"; };
 		54354E93233734D400DB36FC /* SVRequestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVRequestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54354E96233734D400DB36FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54354E97233734D400DB36FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		54354EA2233734D500DB36FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54354EA4233734D500DB36FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54354EA5233734D500DB36FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		54354EC323374B3A00DB36FC /* SVRequest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVRequest.framework; sourceTree = "<group>"; };
 		67627356F3D307CDE85D0972 /* libPods-SVRequestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SVRequestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		994B9D3E38672CEF4F963BB9 /* Pods-SVRequestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVRequestDemo.release.xcconfig"; path = "Target Support Files/Pods-SVRequestDemo/Pods-SVRequestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A7AAA6006456D446E5E246CC /* Pods-SVRequestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVRequestDemo.debug.xcconfig"; path = "Target Support Files/Pods-SVRequestDemo/Pods-SVRequestDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4777AABB7907F080CC16D8E0 /* libPods-SVRequestDemo.a in Frameworks */,
-				54354EC423374B3A00DB36FC /* SVRequest.framework in Frameworks */,
+				5406AD9323FE52640062397E /* SVTransport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +68,7 @@
 		54354E95233734D400DB36FC /* SVRequestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				54354EC323374B3A00DB36FC /* SVRequest.framework */,
+				5406AD9223FE52640062397E /* SVTransport.framework */,
 				54354E96233734D400DB36FC /* AppDelegate.h */,
 				54354E97233734D400DB36FC /* AppDelegate.m */,
 				54354E99233734D400DB36FC /* ViewController.h */,

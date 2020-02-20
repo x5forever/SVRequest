@@ -1,8 +1,8 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'SVRequest'
-  s.version          = '1.2.0'
-  s.summary          = 'SVRequest framework CocoaPods'
+  s.name             = 'SVTransport'
+  s.version          = '2.0.0'
+  s.summary          = 'SVTransport framework CocoaPods'
 
   s.description      = <<-DESC
 The framework is specifically developed for Xcution team.
@@ -16,7 +16,7 @@ The framework is specifically developed for Xcution team.
   s.requires_arc = true
   s.static_framework  =  true
   s.frameworks = "Foundation"
-  s.vendored_frameworks = "SVRequestDemo/SVRequestDemo/SVRequest.framework"
+  s.vendored_frameworks = "SVRequestDemo/SVRequestDemo/SVTransport.framework"
   # s.resources          = "SVRequestDemo/SVRequestDemo/SVCution.bundle"
   s.dependency "AFNetworking"
   s.dependency "GTMBase64"
