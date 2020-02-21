@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SVTransport'
-  s.version          = '2.1.0'
+  s.version          = '2.2.0'
   s.summary          = 'SVTransport framework CocoaPods'
 
   s.description      = <<-DESC
